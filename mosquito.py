@@ -1,9 +1,11 @@
 import pandas
 from matplotlib import pyplot as plt
-plt.show()
 data= pandas.read_csv('mosquito_data.csv')
 print plt.plot(data['year'], data['mosquitos'])
-
+plt.show()
+print "hello world"
+a= 5*2
+print a
 
 #print data['rainfall'][data['rainfall']>200]
 #print data.mean()
